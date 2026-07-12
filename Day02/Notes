@@ -1,0 +1,107 @@
+# SQL Day 2
+
+## 🎯 Today's Mission
+
+Build the foundation of GlobalMart's customer database.
+
+---
+
+## 🏢 Business Scenario
+
+You have joined GlobalMart Logistics & Retail as a Junior Business Analyst.
+
+Your manager asks you to create the company's first customer database.
+
+---
+
+## 🧠 Architecture Learned
+
+- MySQL Server
+- Database
+- Tables
+- Rows
+- Columns
+- How Workbench connects to MySQL Server
+
+---
+
+## ⚙️ SQL Commands Learned
+
+```sql
+CREATE DATABASE GlobalMart;
+
+USE GlobalMart;
+
+CREATE TABLE Customers(
+    CustomerID INT,
+    Name VARCHAR(50),
+    City VARCHAR(50),
+    Age INT
+);
+
+SHOW TABLES;
+```
+
+---
+
+## 💡 What Actually Happened?
+
+When I executed `CREATE DATABASE GlobalMart;`
+
+- MySQL Server received my SQL command.
+- It created a new database.
+- The database was registered inside MySQL.
+- MySQL Workbench displayed it in the Schemas panel.
+
+When I created the Customers table,
+
+- MySQL created a table inside GlobalMart.
+- The table currently has columns only.
+- No rows (customer data) exist yet.
+
+---
+
+## 📊 Project Progress
+
+```
+MySQL Server
+│
+└── GlobalMart
+      │
+      └── Customers
+```
+
+---
+
+## 📝 Reflection
+
+Today I understood the difference between:
+
+- MySQL Server
+- MySQL Workbench
+- SQL
+
+I also learned that a table is only a structure.
+
+The actual customer data will be inserted later.
+
+---
+
+## 🚀 Next Session
+
+- INSERT INTO
+- VALUES
+- First customer records
+
+---
+
+## 📂 Files Created
+
+- GlobalMart Database
+- Customers Table
+
+---
+
+## Git Commit
+
+SQL Day 2: Built GlobalMart database and Customers table
